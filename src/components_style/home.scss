@@ -94,4 +94,19 @@ ul {list-style: none;}
         width: 300px;
         margin-top: 70px;
     }
+    .content_wrapper{
+        h2 {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 340px) {
+
+    .content_wrapper{
+        h2 {
+            text-align: center;
+            font-size: 12px;
+        }
+    }
 }

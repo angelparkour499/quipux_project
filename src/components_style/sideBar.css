@@ -12,7 +12,7 @@
     animation-name: contrat;
     animation-duration: .5s;
     animation-fill-mode: forwards;
-    z-index: 1;
+    z-index: 2;
 }
 @keyframes contrat {
     from {width: 30%;
@@ -158,4 +158,23 @@ margin: auto 0;
 }
 .show {
     display: block !important;
+}
+
+@media (max-width: 570px) {
+ 
+       @keyframes expand {
+           from {width: 10%;
+           max-width: 70px}
+           to {   width: 70%;
+               max-width: 330px;}
+       }
+}
+@media (max-width: 370px) {
+
+       @keyframes expand {
+           from {width: 10%;
+           max-width: 70px}
+           to {   width: 90%;
+               max-width: 330px;}
+       }
 }
